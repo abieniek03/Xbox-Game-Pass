@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbox Game Pass</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- icon pack -->
+    <script src="https://kit.fontawesome.com/aa8acf46e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="pay-page">
+        <div class="pay-page-overlay"></div>
+        <div class="pay-content">
+            <h2>Płatność</h2>
+            <div class="pay-items-container">
+                <div class="pay-item">
+                    <p>Subskrybcja:<span class="sub-type"></span></p>
+                </div>
+                <div class="pay-item">
+                    <p>Cena:<span class="month-price"></span></p>
+                </div>
+                <div class="pay-item">
+                    <p>Cena za pierwszy miesiąc:<span class="first-month-price"></span></p>
+                </div>
+                <div class="pay-item">
+                    <h5>Rozliczanie cykliczne</h5>
+                    <button class="switch-btn on active">Wł</button>
+                    <button class="switch-btn off">Wył.</button>
+                </div>
+                <h5>Metoda płatności</h5>
+                <div class="pay-method-container">
+                    <div class="pay-method pay-pal-btn">
+                        <i class="fa-brands fa-paypal"></i>
+                        <p>PayPal</p>
+                    </div>
+                    <div class="pay-method visa-btn">
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <p>Visa</p>
+                    </div>
+                </div>
+                <button class="main-btn" id="go-pay-btn">Zapłać</button>
+            </div>
+        </div>
+    </main>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
