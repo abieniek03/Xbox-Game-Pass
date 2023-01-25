@@ -164,7 +164,7 @@ h1 {
 .header {
   position: relative;
   height: 100vh;
-  background-image: url("/images/background.jpg");
+  background-image: url("./images/background.jpg");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,7 +205,7 @@ h1 {
 
 .about {
   position: relative;
-  background-image: url("/images/halo-infinite-background.jpg");
+  background-image: url("./images/halo-infinite-background.jpg");
   background-position: 80%;
   padding: 100px 0 250px;
   color: #fff;
@@ -461,12 +461,12 @@ h1 {
 }
 
 .login-page {
-  background-image: url("/images/fifa-background-effect.jpg");
+  background-image: url("./images/fifa-background-effect.jpg");
   background-position: 40%;
 }
 
 .pay-page {
-  background-image: url("/images/forza-background-effect.jpg");
+  background-image: url("./images/forza-background-effect.jpg");
   background-position: 10%;
 }
 
